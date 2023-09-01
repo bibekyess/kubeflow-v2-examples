@@ -35,12 +35,12 @@ Follow these steps to run the code and set up the pipeline.
     ```
 
 6. Access the pipeline UI and view the pipelines. You can use port forwarding to view it in local computer.
-```bash
-kubectl port-forward -n kubeflow svc/ml-pipeline-ui 8080:80
-```
-*NOTE* When setting the name for the `target_image` in each component definition, make sure you make it consistent with your container runtime environment.
+    ```bash
+    kubectl port-forward -n kubeflow svc/ml-pipeline-ui 8080:80
+    ```
+*NOTE:* When setting the image-name for the `target_image` in each component definition, make sure you make it consistent with your container runtime environment.
 
 ### Acknowledgments
 This codebase is a replication of https://github.com/minio/blog-assets/tree/main/kfp-training-pipeline/src?ref=blog.min.io, where I added some data utilities.
 
-## HAPPY CONTINUOUS LEARNING
+## `HAPPY CONTINUOUS LEARNING!! :smile:` 

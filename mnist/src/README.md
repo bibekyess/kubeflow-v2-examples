@@ -33,9 +33,12 @@ Follow these steps to run the code and set up the pipeline.
     ```
 
 5. Access the pipeline UI and view the pipelines. You can use port forwarding to view it in local computer.
-```bash
-kubectl port-forward -n kubeflow svc/ml-pipeline-ui 8080:80
-```
+    ```bash
+    kubectl port-forward -n kubeflow svc/ml-pipeline-ui 8080:80
+    ```
 
+*NOTE:* When setting the image-name for the `target_image` in each component definition, make sure you make it consistent with your container runtime environment.
 ### Acknowledgments
 This codebase is inspired by https://github.com/manceps/fashion-mnist-kfp-lab, where the original code is written in Kubeflow SDK V1 semantics and uses Lightweight Python Components. I've converted it into SDK V2 using Containerized Python Components.
+
+## `HAPPY CONTINUOUS LEARNING!! :smile:` 
