@@ -1,4 +1,6 @@
 import mlflow
+
+# Make sure you set the appropriate environment variable for connecting the Minio database
 logged_model = 's3://mlflow/1/d3653d7fc44747a98947c126c7a92f57/artifacts/sklearn-model'
 
 # Load model as a PyFuncModel.
